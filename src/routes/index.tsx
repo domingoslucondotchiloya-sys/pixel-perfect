@@ -22,7 +22,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const days = [
+const days: [string, string][] = [
   ["Encarar", "olhar-te ao espelho sem fugir"],
   ["Limpar", "uma pele fresca e limpa"],
   ["Reativar", "massagem facial de 5 minutos"],
@@ -32,7 +32,7 @@ const days = [
   ["Renascer", "ver a mulher que voltou"],
 ];
 
-const faqs = [
+const faqs: [string, string][] = [
   ["Serve para pele negra?", "Sim. Os cuidados servem a todos os tipos de pele, com orientação sobre sol e manchas."],
   ["Preciso de muitos produtos?", "Não. Só o essencial: sabonete suave, hidratante, protetor solar, mel e aloé vera."],
   ["Quanto tempo por dia?", "Cerca de 15 minutos."],
